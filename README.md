@@ -1,2 +1,0 @@
-maxkostow.github.com
-====================
