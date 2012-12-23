@@ -1,0 +1,204 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-align: center;
+    height: 100%;
+}
+
+.wrap {
+    min-height: 100%;
+    position: relative;
+    padding: 100px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.max {
+    font-family: double-pica-small-caps;
+    font-size: 64px;
+    color: #4D4646;
+    z-index: 101;
+    margin: 0;
+    font-weight: 900;
+}
+.sk33lz {
+    font-family: miama;
+    font-size: 24px;
+    z-index: 101;
+    color: #4D4646;
+    font-weight: 100;
+    text-shadow: 0px 0px 40px rgba(255,255,255,1.0);
+    margin: 0;
+    padding: 20px 0;
+}
+
+.links {
+    list-style: none;
+    padding: 40px 0;
+    margin: 0 auto;
+    display: block;
+    font-size: 32px;
+}
+.links li {
+    padding: 3px 0;
+}
+.links a {
+    font-weight: 100;
+    text-decoration: none;
+    -webkit-transition: color 300ms ease-in;
+    -moz-transition: color 300ms ease-in;
+    -o-transition: color 300ms ease-in;
+    transition: color 300ms ease-in;
+}
+.links.small {
+    font-size: 16px;
+}
+.links.small li {
+    display: inline-block;
+    width: 105px;
+}
+#facebook {
+    color: #3B5998;
+}
+#instagram {
+    color: #517FA4;
+}
+#twitter {
+    color: #4099ff;
+}
+#googleplus {
+    color: #B86055;
+}
+#github {
+    color: #423131;
+}
+#linkedin {
+    color: #71C5EF;
+}
+#email {
+    color: #640A61;
+}
+#blog {
+    color: #A5C524;
+}
+#facebook:hover {
+    color: #6091F8;
+}
+#instagram:hover {
+    color: #A46851;
+}
+#twitter:hover {
+    color: #59DDF7;
+}
+#googleplus:hover {
+    color: #F82727;
+}
+#github:hover {
+    color: #9091A0;
+}
+#linkedin:hover {
+    color: #2281E9;
+}
+#email:hover {
+    color: #BD1FB7;
+}
+#blog:hover {
+    color: #5C9119;
+}
+
+.bg {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -2;
+    -webkit-transition: opacity 1000ms linear;
+    -moz-transition: opacity 1000ms linear;
+    -o-transition: opacity 1000ms linear;
+    transition: opacity 1000ms linear;
+    opacity: 0.0;
+}
+.links a:hover ~ .bg {
+    opacity: 1.0;
+}
+.bg.vig {
+    -webkit-box-shadow: 0px 0px 100px 10px rgba(0,0,0,0.7) inset;
+    box-shadow: 0px 0px 100px 10px rgba(0,0,0,0.7) inset;
+    z-index: -1;
+    opacity: 1.0;
+}
+.bg.facebook {
+    background: #B3CFEC;
+}
+.bg.instagram {
+    background: #F5D5BB;
+}
+.bg.twitter {
+    background: #CAECFC;
+}
+.bg.googleplus {
+    background: #FACDBF;
+}
+.bg.github {
+    background: #E7DDDD;
+}
+.bg.linkedin {
+    background: #D7D8DB;
+}
+.bg.email {
+    background: #E4CAF0;
+}
+.bg.blog {
+    background: #FDF8B8;
+}
+.c {
+    font-family: double-pica-small-caps;
+    font-size: 16px;
+    color: #888;
+    padding: 20px 0;
+}
+
+@media screen and (max-width: 680px) {
+    .max {
+        font-size: 58px;
+    }
+    .sk33lz {
+        line-height: 28px;
+    }
+    .middot {
+        display: none;
+    }
+    .skill {
+        display: block;
+    }
+    .skill:first-child {
+        text-align: left;
+    }
+    .skill:last-child {
+        text-align: right;
+        padding-right: 26px;
+    }
+    .links.small li {
+        display: block;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .sk33lz {
+        line-height: 18px;
+    }
+    .wrap {
+        padding: 20px 40px;
+    }
+    .max {
+        font-size: 26px;
+    }
+    .bg.vig {
+        -webkit-box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.7) inset;
+        box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.7) inset;
+    }
+}

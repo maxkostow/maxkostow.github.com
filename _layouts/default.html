@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+    {% if page.title %}
+    <title>{{ page.title }}</title>
+    {% endif %}
+
+    {% for meta in page.metas %}
+    <meta name="{{ meta.name }}" content="{{ meta.content }}">
+    {% endfor %}
+
+    {% for css_href in page.css_hrefs %}
+    <link rel="stylesheet" type="text/css" href="{{ css_href }}">
+    {% endfor %}
+    {% for script_src in page.script_srcs %}
+    <script type="text/javascript" src="{{ script_src }}"></script>
+    {% endfor %}
+
+    {% include ga.html %}
+</head>
+<body>
+    {{ content }}
+</body>
+</html>
