@@ -24,6 +24,7 @@
     padding: 10px 0;
     font-size: 11px;
     color: #888;
+    margin-bottom: 10px;
 }
 
 .post-list {
@@ -39,17 +40,17 @@
 
 a {
     text-decoration: none;
-    color: #b8ab1f;
+    color: #f0e035;
     -webkit-transition: color 400ms ease;
     -moz-transition: color 400ms ease;
     -o-transition: color 400ms ease;
     transition: color 400ms ease;
 }
 a:visited {
-    color: #b8ab1f;
+    color: #f0e035;
 }
 a:hover {
-    color: #f0e035;
+    color: #F0171F;
     -webkit-transition: color 400ms ease;
     -moz-transition: color 400ms ease;
     -o-transition: color 400ms ease;
