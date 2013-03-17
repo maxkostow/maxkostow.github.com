@@ -1,5 +1,5 @@
 @media screen and (min-width: 950px) {
-    .header, .footer, .wrap {
+    .header, .footer, .wrap, .homer {
         width: 950px;
         margin: 0 auto 50px auto;
     }
@@ -7,6 +7,16 @@
 
 .header, .footer, .wrap {
     padding: 0 10px;
+}
+
+.homer {
+    margin: 0 auto;
+    background: #eee;
+    border: 1px solid #999;
+    border-top: 0;
+    border-radius: 0 0 10px 10px;
+    padding: 10px;
+    text-align: right;
 }
 
 .header {
@@ -31,13 +41,24 @@
 }
 
 a {
-    text-decoration: none;
+    text-decoration: underline;
+    color: #66c;
+}
+a:visited {
+    color: #66c;
 }
 a:hover {
-    text-decoration: underline;
+    color: rgb(77, 77, 155);
+    -webkit-transition: color 300ms ease;
+    -moz-transition: color 300ms ease;
+    -o-transition: color 300ms ease;
+    transition: color 300ms ease;
 }
 
 body {
     color: #222;
-    background: #eee;
+}
+
+.pull-left {
+    float: left;
 }
