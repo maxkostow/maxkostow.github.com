@@ -1,0 +1,43 @@
+@media screen and (min-width: 950px) {
+    .header, .footer, .wrap {
+        width: 950px;
+        margin: 0 auto 50px auto;
+    }
+}
+
+.header, .footer, .wrap {
+    padding: 0 10px;
+}
+
+.header {
+    text-align: center;
+}
+.footer {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 11px;
+    color: #888;
+}
+
+.post-list {
+    list-style-type: none;
+    padding-left: 50px;
+    margin: 0;
+}
+.post-list-item {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    color: #222;
+    background: #eee;
+}

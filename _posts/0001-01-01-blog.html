@@ -3,6 +3,27 @@ layout: blog
 title: Max Kostow Blog
 permalink: /blog
 ---
-{% include reviews.html %}
-{% include nerd.html %}
-{% include misc.html %}
+<ul class="post-list">
+    {% for post in site.posts %}
+    {% if post.category %}
+    <li class="post-list-item">
+        <h3>
+            <a href="{{ post.url }}">
+                {{ post.title }}
+            </a>
+        </h3>
+        <span class="post-category">
+            {% if post.category == 'nerd'%}
+            nerd-shit
+            {% else %}
+            {{ post.category }}
+            {% endif %}
+        </span>
+        &middot;&middot;&middot;
+        <span class="post-date">
+            {{ post.date | date_to_string }}
+        </span>
+    </li>
+    {% endif %}
+    {% endfor %}
+</ul>
