@@ -11,7 +11,7 @@
 
 .homer {
     margin: 0 auto;
-    background: #eee;
+    background: #e6e6e6;
     border: 1px solid #999;
     border-top: 0;
     border-radius: 0 0 10px 10px;
@@ -41,22 +41,23 @@
 }
 
 a {
-    text-decoration: underline;
-    color: #66c;
+    text-decoration: none;
+    color: #d90000;
 }
 a:visited {
-    color: #66c;
+    color: #d90000;
 }
 a:hover {
-    color: rgb(77, 77, 155);
-    -webkit-transition: color 300ms ease;
-    -moz-transition: color 300ms ease;
-    -o-transition: color 300ms ease;
-    transition: color 300ms ease;
+    color: #ff4c4c;
+    -webkit-transition: color 400ms ease;
+    -moz-transition: color 400ms ease;
+    -o-transition: color 400ms ease;
+    transition: color 400ms ease;
 }
 
 body {
     color: #222;
+    background: #f8f8f8;
 }
 
 .pull-left {
