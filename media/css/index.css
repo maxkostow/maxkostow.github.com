@@ -59,53 +59,59 @@ html, body {
     display: inline-block;
     width: 105px;
 }
-#facebook {
+.facebook {
     color: #3B5998;
 }
-#instagram {
+.instagram {
     color: #517FA4;
 }
-#twitter {
+.twitter {
     color: #4099ff;
 }
-#googleplus {
+.googleplus {
     color: #B86055;
 }
-#github {
+.github {
     color: #423131;
 }
-#linkedin {
+.linkedin {
     color: #71C5EF;
 }
-#email {
+.email {
     color: #640A61;
 }
-#blog {
+.blog {
     color: #A5C524;
 }
-#facebook:hover {
+.blurblog {
+    color: gold;
+}
+.facebook:hover {
     color: #6091F8;
 }
-#instagram:hover {
+.instagram:hover {
     color: #A46851;
 }
-#twitter:hover {
+.twitter:hover {
     color: #59DDF7;
 }
-#googleplus:hover {
+.googleplus:hover {
     color: #F82727;
 }
-#github:hover {
+.github:hover {
     color: #9091A0;
 }
-#linkedin:hover {
+.linkedin:hover {
     color: #2281E9;
 }
-#email:hover {
+.email:hover {
     color: #BD1FB7;
 }
-#blog:hover {
+.blog:hover {
     color: #5C9119;
+}
+.blurblog:hover {
+    color: #9A6E47;
 }
 
 .bg {
@@ -153,6 +159,9 @@ html, body {
 }
 .bg.blog {
     background: #FDF8B8;
+}
+.bg.blurblog {
+    background: #EBC55F;
 }
 .c {
     font-family: double-pica-small-caps;
