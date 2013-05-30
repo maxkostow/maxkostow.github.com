@@ -14,7 +14,7 @@ I've been trying to get these routers to talk to each other for a while. I have 
 - **Wireless**: create Wireless Network
 - **Security**: WPA/WPA2 Personal
 - **Wireless Options**: 2.4GHz Channel: Explicitly choose an unused 2.4GHz channel with as big a buffer as possible between the next active channels. Use a wireless survey tool to figure this out.
-- Take note of the DHCP Range in the Network tab (```192.168.xxx.xxx, 10.0.xxx.xxx, etc.```)
+- Take note of the DHCP Range in the Network tab (`192.168.xxx.xxx`, `10.0.xxx.xxx`, etc.)
 
 ###The WRT54GL setup (Basic -> Network):
 
@@ -23,8 +23,8 @@ I've been trying to get these routers to talk to each other for a while. I have 
 - **Security**: WPA Personal
 - **Encryption**: TKIP
 - **Shared Key**: same as AirPort Extreme
-- **Router IP Address**: choose an unused IP outside the AirPort Extreme DHCP Range but in the subnet. My AirPort Extreme is ```192.168.1.1``` with DHCP Range ```192.168.1.100-192.168.1.149``` and I set the IP to ```192.168.1.2```. Keeping this value in your network allows you to access the configuration when your computer has a DHCP address from the AirPort Extreme.
-- **Subnet Mask**: same as AirPort Extreme (```255.255.255.0```)
+- **Router IP Address**: choose an unused IP outside the AirPort Extreme DHCP Range but in the subnet. My AirPort Extreme is `192.168.1.1` with DHCP Range `192.168.1.100`-`192.168.1.149` and I set the IP to `192.168.1.2`. Keeping this value in your network allows you to access the configuration when your computer has a DHCP address from the AirPort Extreme.
+- **Subnet Mask**: same as AirPort Extreme (`255.255.255.0`)
 
 That's it. It took me a frustratingly long time to figure out that you have to use WPA Personal and TKIP so I hope this saves someone else some time.
 
