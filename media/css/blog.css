@@ -86,3 +86,7 @@ code {
     border-radius: 2px;
     padding: 0 .2em;
 }
+
+.hero {
+    width: 100%;
+}
