@@ -1,0 +1,23 @@
+
+.svg-modo {
+  font: 10px sans-serif;
+  margin-top: 15px;
+}
+.svg-modo-title {
+	font-size: 18px;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #fff;
+  shape-rendering: crispEdges;
+}
+
+.svg-modo text {
+	fill: #fff;
+}
+
+.x.axis path {
+  display: none;
+}

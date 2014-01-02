@@ -9,6 +9,9 @@
     {% for meta in page.metas %}
     <meta name="{{ meta.name }}" content="{{ meta.content }}">
     {% endfor %}
+    {% for meta in page.post_metas %}
+    <meta name="{{ meta.name }}" content="{{ meta.content }}">
+    {% endfor %}
 
     <link href="/favicon.png" rel="shortcut icon" type="image/png"/>
     <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
@@ -17,7 +20,13 @@
     {% for css_href in page.css_hrefs %}
     <link rel="stylesheet" type="text/css" href="{{ css_href }}">
     {% endfor %}
+    {% for css_href in page.post_css_hrefs %}
+    <link rel="stylesheet" type="text/css" href="{{ css_href }}">
+    {% endfor %}
     {% for script_src in page.script_srcs %}
+    <script type="text/javascript" src="{{ script_src }}"></script>
+    {% endfor %}
+    {% for script_src in page.post_script_srcs %}
     <script type="text/javascript" src="{{ script_src }}"></script>
     {% endfor %}
 
