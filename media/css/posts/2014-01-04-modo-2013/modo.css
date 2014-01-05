@@ -1,0 +1,31 @@
+
+.svg-modo {
+  font: 10px sans-serif;
+  margin-top: 15px;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #fff;
+  shape-rendering: crispEdges;
+}
+
+.svg-modo text {
+	fill: #fff;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.legend {
+	cursor: pointer;
+}
+.legend:hover text {
+	fill: #F0171F;
+    -webkit-transition: color 400ms ease;
+    -moz-transition: color 400ms ease;
+    -o-transition: color 400ms ease;
+    transition: color 400ms ease;
+}
