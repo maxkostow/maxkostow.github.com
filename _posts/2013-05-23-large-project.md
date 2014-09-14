@@ -4,7 +4,7 @@ title: A Year With a Large Project
 category: nerd
 ---
 <figure>
-    <img src="/media/images/posts/2013-05-23-large-project/pyramid.jpg" title="Pyramid">
+    <img src="/media/2013-05-23-large-project/pyramid.jpg" title="Pyramid">
     <figcaption>
         Pyramids by <a href="http://www.flickr.com/photos/timkelley/">timkelly</a>
     </figcaption>

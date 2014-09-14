@@ -35,7 +35,7 @@ svg.append("text")
 var chart = svg.append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-d3.csv("/media/misc/posts/2014-01-01-d3-modo/modo.csv", function(error, data) {
+d3.csv("/media/2014-01-01-d3-modo/modo.csv", function(error, data) {
   color.domain(_.chain(data).groupBy('Teacher').pairs().sortBy(function(pair) {
     return _.last(pair).length;
   }).map(function(pair){ return _.first(pair); }).value());

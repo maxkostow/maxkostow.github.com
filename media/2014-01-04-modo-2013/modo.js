@@ -12,7 +12,7 @@ var svgs = d3.selectAll('.svg-modo')
     .append("g")
       .attr("transform", "translate(" + window.modo.margin.left + "," + window.modo.margin.top + ")");
 
-d3.csv("/media/misc/posts/2014-01-04-modo-2013/modo.csv", function(err, data) {
+d3.csv("/media/2014-01-04-modo-2013/modo.csv", function(err, data) {
   window.modo.teachers(d3.select(svgs[0][0]), data);
   window.modo.time.teachers(d3.select(svgs[0][1]), data);
   window.modo.time.classes(d3.select(svgs[0][2]), data);
