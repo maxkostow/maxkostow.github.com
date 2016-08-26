@@ -1,4 +1,4 @@
-server_port: 4000
+port: 4000
 permalink:   /blog/:categories/:year/:month/:day/:title
 name: Max Kostow Blog
 description: The blog of Max Kostow
